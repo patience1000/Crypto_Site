@@ -1,0 +1,10 @@
+#Content{
+   background-color: #1e1e1e;
+   color: #fff;
+}
+.navbar-nav{
+    margin-left: auto;
+    color: #fff;
+    padding-right: 8%;
+    font-size: 1.2em;
+}
