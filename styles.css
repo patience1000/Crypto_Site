@@ -16,5 +16,17 @@ body{
     font-size: 1em;
 }
 /* Buy and sell */
+.buy_sell{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.note p{
+    width: 600;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-.
+.buy_sell img{
+    border-radius: 10%;
+}
