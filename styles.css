@@ -18,7 +18,7 @@ body{
 /* Buy and sell */
 .buy_sell{
     display: flex; 
-    flex-wrap: wrap;
+    flex-wrap:wrap-reverse;
     justify-content:space-around;
     margin-top: 10%;
 }
@@ -48,5 +48,5 @@ body{
     outline: none;
     border-radius: 30px;
     background-color: transparent;
-    margin-left: 70px;
+    margin-left: 20px;
 }
