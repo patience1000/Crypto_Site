@@ -19,17 +19,19 @@ body{
 .buy_sell{
     display: flex; 
     flex-wrap:wrap-reverse;
-    justify-content:space-around;
+    justify-content: center;
     margin-top: 10%;
 }
 .note p{
     width: 600;
-    font-size: 3.3em;
+    font-size: 3.1em;
+    padding-right: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .buy_sell img{
     border-radius: 0% 0% 1% 0%;
+    padding-left: 30px;
 }
 .sell-btn{
     font-size: 1em;
@@ -49,4 +51,54 @@ body{
     border-radius: 30px;
     background-color: transparent;
     margin-left: 20px;
+}
+.feature{
+    padding-top: 12%;
+    margin-left: 12%;
+}
+.coins{
+    display: flex;
+    font-family:'Times New Roman', Times, serif ;
+    align-items: center;
+    width: fit-content;
+    border: 1px solid #6f67aa;
+    background-color: #2b2d46;
+    
+}
+.coins p{
+    font-size: 1em ;
+    padding: 10px 80px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .note p{
+        padding-right: 0px;
+    }
+    .buy_sell img{
+        padding-left: 0px;
+    }
+    
+}
+@media screen and (max-width: 360px) {
+    .sell-btn{
+        font-size: 1em;
+        padding: 8.5px 50px;
+        border: none;
+        color: #fff;
+        outline: none;
+        border-radius: 30px;
+        background-color: #2d2b46;
+    }
+    .buy-btn{
+        font-size: 1em;
+        padding: 8px 50px;
+        border: 1px #6f67aa solid;
+        color: #fff;
+        outline: none;
+        border-radius: 30px;
+        background-color: transparent;
+        margin-left: 6px;
+    }
+    
 }
