@@ -1,5 +1,5 @@
 body{
-   background-color: #030118;
+   background-color: #04011a;
    color: #fff;
 }
 .navbar-brand{
@@ -17,16 +17,36 @@ body{
 }
 /* Buy and sell */
 .buy_sell{
-    display: flex;
-    justify-content: space-around;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content:space-around;
     margin-top: 10%;
 }
 .note p{
     width: 600;
-    font-size: 3em;
+    font-size: 3.3em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .buy_sell img{
-    border-radius: 10%;
+    border-radius: 0% 0% 1% 0%;
+}
+.sell-btn{
+    font-size: 1em;
+    padding: 8.5px 50px;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-radius: 30px;
+    background-color: #2d2b46;
+}
+.buy-btn{
+    font-size: 1em;
+    padding: 8px 50px;
+    border: 1px #6f67aa solid;
+    color: #fff;
+    outline: none;
+    border-radius: 30px;
+    background-color: transparent;
+    margin-left: 70px;
 }
