@@ -55,20 +55,20 @@ body{
 .feature{
     padding-top: 12%;
     margin-left: 12%;
+    width: 70%;
+    margin: auto;
 }
 .coins{
     display: flex;
+    justify-content: space-evenly;
     font-family:'Times New Roman', Times, serif ;
-    align-items: center;
-    width: fit-content;
     border: 1px solid #6f67aa;
     background-color: #2b2d46;
     
 }
 .coins p{
-    font-size: 1em ;
-    padding: 10px 80px;
-    
+    font-size: 1.1em ;
+    padding: 22px 10px 10px 20px;    
 }
 
 @media screen and (max-width: 768px) {
