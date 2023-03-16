@@ -64,7 +64,7 @@ body{
     font-family:'Times New Roman', Times, serif ;
     border: 1px solid #6f67aa;
     background-color: #2b2d46;  
-    box-shadow: -5px 5px rgba(188, 185, 212, 0.5);
+    box-shadow: -3px 3px rgba(188, 185, 212, 0.5);
 }
 .coins p{
     font-size: 1.1em ;
