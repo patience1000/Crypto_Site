@@ -94,7 +94,7 @@ body{
 }
 .sale-note button{
     color: #fff;
-    padding: 8px;
+    padding: 8px 10px;
     font-size: 1.2em;
     border-radius: 15%;
     box-shadow: -5px 5px rgba(188, 185, 212, 0.5);
