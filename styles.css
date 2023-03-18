@@ -78,6 +78,8 @@ body{
 }
 .contact img{
     padding-right: 10px;
+    width: 400px;
+    height: 400px;
 }
 .sale-note{
     padding-left: 10px;
@@ -103,9 +105,15 @@ body{
 
 }
 table{
-    
+    margin-top: 20px;
+    background-color: #6f67aa;
+    color: #fff;
+    font-size: 1.5em;
+    border-radius: 5%;
 }
-
+tr, td{
+    padding: 10px 20px;
+}
 @media screen and (max-width: 768px) {
     .note p{
         padding-right: 0px;
