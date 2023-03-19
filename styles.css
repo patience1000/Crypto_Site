@@ -114,6 +114,21 @@ table{
 th, td{
     padding: 6px 17px;
 }
+/* About */
+.about{
+    display: flex;
+    padding-top: 13%;
+    justify-content: center;
+}
+.about_note button{
+    font-size: 1.3em;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 10%;
+    border: 1px solid #6f67aa;
+    background-color: transparent;
+}
+
 @media screen and (max-width: 768px) {
     .note p{
         padding-right: 0px;
