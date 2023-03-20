@@ -120,6 +120,10 @@ th, td{
     padding-top: 15%;
     justify-content: center;
 }
+.about img{
+    position: relative;
+    z-index: -1;
+}
 .about_note button{
     font-size: 1.2em;
     padding: 10px 30px;
