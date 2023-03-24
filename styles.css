@@ -121,11 +121,22 @@ th, td{
     justify-content: center;
 }
 .on-top{
-    position: absolute;
-    left: 
-    top: 70%;
+    position: relative;
+    top: 30px;
+    left: 80px;
     z-index: -1;
 }
+.bottom{
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #9591b4;
+}
+.bottom img{
+    width: 100%;
+    border-radius: 5px;
+}
+
 .about_note button{
     font-size: 1.2em;
     padding: 10px 30px;
