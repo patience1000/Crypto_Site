@@ -121,12 +121,11 @@ th, td{
     justify-content: center;
 }
 .on-top{
-    bottom: 150px;
     left: 80px;
-    z-index: 1;
     width: 250px;
     height: 300px;
     border-radius: 5px;
+    transform: rotate(-20deg);
     background-color: #897ee0;
 }
 .on-top img{
@@ -135,7 +134,7 @@ th, td{
     border-radius: 5px;
 }
 .bottom{
-    bottom: 190px;
+    bottom: 230px;
     left: 80px;
     z-index: -1;
     width: 250px;
