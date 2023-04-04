@@ -133,6 +133,21 @@ th, td{
     width: 100%;
     border-radius: 5px;
 }
+.on-top button{
+    color: #766eaf;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    background-color: #04011a;
+}
+
+.bottom button{
+    color: #766eaf;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    background-color: #04011a;
+}
 .bottom{
     bottom: 230px;
     left: 80px;
