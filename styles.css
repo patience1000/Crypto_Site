@@ -133,20 +133,30 @@ th, td{
     width: 100%;
     border-radius: 5px;
 }
+.swi{
+    display: flex;
+    /* justify-content: space-around; */
+}
 .on-top button{
     color: #766eaf;
-    font-size: 1em;
+    font-size: .7em;
     outline: none;
     border: none;
+    padding: 1px 10px;
+    border-radius: 5px;
     background-color: #04011a;
+    margin-bottom: 10px;
 }
 
 .bottom button{
     color: #766eaf;
-    font-size: 1em;
+    font-size: .7em;
     outline: none;
     border: none;
+    padding: 1px 10px;
+    border-radius: 10px;
     background-color: #04011a;
+    margin-bottom: 10px;
 }
 .bottom{
     bottom: 230px;
