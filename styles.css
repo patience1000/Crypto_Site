@@ -195,26 +195,27 @@ th, td{
 .test-card{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:center;
 }
 .card{
-    background: #fff;
+    background: #2b2d46;
     height: 350px;
     width: 300px;
-    font-size: .9em;
+    font-size: .8em;
     align-items: center;
     margin-top: 50px;
+    border-radius: 0%;
     /* margin-bottom: 90px; */
-    color: #000;
-    /* line-height: 170%; */
+    color: #fff;
     text-align: center;
 }
 .card img{
     width: 45%;
     border-radius: 100%;
 }
-
-
+.card-text{
+    margin-bottom: 60px;
+}
 @media screen and (max-width: 768px) {
     .note p{
         padding-right: 0px;
