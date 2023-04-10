@@ -198,7 +198,6 @@ th, td{
     justify-content:center;
 }
 .card{
-    position: absolute;
     background: #2b2d46;
     height: 350px;
     width: 300px;
