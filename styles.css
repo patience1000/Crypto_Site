@@ -198,6 +198,7 @@ th, td{
     justify-content:center;
 }
 .card{
+    position: relative;
     background: #2b2d46;
     height: 350px;
     width: 300px;
@@ -211,6 +212,9 @@ th, td{
     text-align: center;
 }
 .card img{
+    position: absolute;
+    z-index: 1;
+    bottom: 270px;
     width: 45%;
     border-radius: 100%;
 }
