@@ -121,6 +121,7 @@ th, td{
     justify-content: center;
 }
 .testify{
+    margin-top: 30px;
     text-align: center;
 }
 .testify h5{
@@ -202,9 +203,9 @@ th, td{
     background: #2b2d46;
     height: 350px;
     width: 300px;
-    font-size: .7em;
+    font-size: .9em;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 10px;
     border-radius: 0%;
     /* margin-bottom: 90px; */
@@ -214,12 +215,17 @@ th, td{
 .card img{
     position: absolute;
     z-index: 1;
-    bottom: 270px;
+    bottom: 260px;
     width: 45%;
     border-radius: 100%;
 }
-.card-text{
-    margin-bottom: 60px;
+.card-body{
+     padding-top: 100px;
+}
+.buynow-section{
+    width: 60%;
+    height: 450px;
+    background-color: rgba(73, 69, 97, 0.5);
 }
 @media screen and (max-width: 768px) {
     .note p{
