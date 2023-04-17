@@ -42,6 +42,10 @@ body{
     border-radius: 30px;
     background-color: #2d2b46;
 }
+.sell-btn:hover{
+    border: 1px #6f67aa solid;
+    background-color: transparent;
+}
 .buy-btn{
     font-size: 1em;
     padding: 8px 50px;
@@ -51,6 +55,10 @@ body{
     border-radius: 30px;
     background-color: transparent;
     margin-left: 20px;
+}
+
+.buy-btn:hover{
+    background-color: #2d2b46;
 }
 .feature{
     padding-top: 14%;
@@ -241,14 +249,7 @@ th, td{
 
 .buynow-section button{
     padding: 7.5px 60px;
-    font-size: 1.2em;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #000;
-    border: none;
-    border-radius: 25px;
+       border-radius: 25px;
 }
 
 @media screen and (max-width: 768px) {
