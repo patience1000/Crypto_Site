@@ -111,8 +111,12 @@ body{
     border: 1px solid #6f67aa;
 
 }
+.sale-note button:hover{
+    background-color: #2b2d46;
+}
+
 .sale-note button:active{
-  background-color: #3e8e41;
+  background-color: #6f67aa;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
