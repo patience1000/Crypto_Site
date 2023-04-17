@@ -111,6 +111,12 @@ body{
     border: 1px solid #6f67aa;
 
 }
+.sale-note button:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 table{
     margin-top: 20px;
     background-color: #6f67aa;
