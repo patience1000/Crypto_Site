@@ -150,11 +150,11 @@ th, td{
     color: #897ee0;
 }
 .on-top{
-    left: 80px;
     width: 250px;
     height: 300px;
     border-radius: 5px;
-    transform: rotate(-22deg);
+    margin-left: 100px;
+    transform: rotate(-15deg);
     background-color: #897ee0;
 }
 .on-top img{
@@ -178,7 +178,6 @@ th, td{
 }
 .bottom{
     bottom: 30px;
-    left: 0px;
     z-index: -1;
     width: 250px;
     height: 300px;
