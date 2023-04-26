@@ -265,6 +265,11 @@ th, td{
        border-radius: 25px;
 }
 
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media screen and (max-width: 768px) {
     .note p{
         padding-right: 0px;
