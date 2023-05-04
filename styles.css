@@ -205,15 +205,15 @@ th, td{
 }
 
 .about_note button{
-    font-size: 1.2em;
-    padding: 10px 30px;
+    font-size: 1.5em;
+    padding: 10px 40px;
     color: #fff;
     border-radius: 30px;
     border: 1px solid #6f67aa;
-    background-color: ;
+    background-color: rgba(4, 1, 26, 0.473);
 }
 .about_note h1{
-    font-size: 2.9em;
+    font-size: 2.5em;
 }
 
 .test-card{
