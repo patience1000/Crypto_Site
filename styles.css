@@ -155,7 +155,7 @@ th, td{
     border-radius: 5px;
     margin-left: 100px;
     transform: rotate(-15deg);
-    background-color: #897ee0;
+    background-color: rgb(137, 126, 224);
 }
 .on-top img{
     height: 70%;
@@ -171,12 +171,11 @@ th, td{
     font-size: 1.2em;
     outline: none;
     border: none;
-    padding: 1px 10px;
+    padding: 10px 5px;
     border-radius: 5px;
     background-color: rgb(4, 1, 26);
     margin-bottom: 10px;
-    box-shadow: -4px 4px rgba(4, 1, 26, 0.158);
-    /* background-color: transparent; */
+    box-shadow: 4px -4px rgba(137, 126, 224, 0.158);
     border: 1px solid #6f67aa;
 }
 .bottom{
@@ -211,7 +210,7 @@ th, td{
     color: #fff;
     border-radius: 30px;
     border: 1px solid #6f67aa;
-    background-color: transparent;
+    background-color: ;
 }
 .about_note h1{
     font-size: 2.9em;
