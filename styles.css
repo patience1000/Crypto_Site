@@ -301,7 +301,7 @@ th, td{
         padding-left: 0px;
     }    
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
     .sell-btn{
         font-size: 1em;
         padding: 8.5px 50px;
@@ -322,11 +322,27 @@ th, td{
         margin-left: 6px;
     }
 
-    .footer{
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+
+    .buynow-section{
+        width: 60%;
+        height: 270px;
     }
+    .buynow-section h2{
+        padding: 15px 0;
+        font-size: 2em;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+    
+    .buynow-section button{
+        border: 0;
+        outline: none;
+        color: #fff;
+        padding: 7.5px 40px;
+        border-radius: 25px;
+        background-color: black;
+    }
+    
 }
 @media screen and (max-width: 420px) {
     .coins{
