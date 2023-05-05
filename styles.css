@@ -285,13 +285,13 @@ th, td{
     font-size: .8em;
 }
 .footer button{
-    background-color: rgb(59, 124, 112);
     outline: none;
     border: none;
     font-size: .7em;
     color: #fff;
     padding: 7px 40px;
     border-radius: 20px;
+    background-color: rgb(59, 124, 112);
 }
 @media screen and (max-width: 768px) {
     .note p{
@@ -320,6 +320,12 @@ th, td{
         border-radius: 30px;
         background-color: transparent;
         margin-left: 6px;
+    }
+
+    .footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 }
 @media screen and (max-width: 420px) {
