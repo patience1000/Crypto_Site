@@ -16,7 +16,7 @@ body{
     font-size: 1em;
 }
 
-.nav-link:hover{
+a:hover{
     color: #897ee0;
 }
 /* Buy and sell */
@@ -302,6 +302,22 @@ th, td{
     }    
 }
 @media screen and (max-width: 390px) {
+    .about{
+        flex-direction: column;
+        padding-top: 10%;
+    }
+
+    .about_note button{
+        font-size: 1em;
+        padding: 10px 40px;
+        color: #fff;
+        border-radius: 30px;
+        border: 1px solid #6f67aa;
+        background-color: rgba(4, 1, 26, 0.473);
+    }
+    .about_note h1{
+        font-size: 2em;
+    }
     table{
         font-size: 1em;
     }
@@ -309,7 +325,7 @@ th, td{
         padding: 6px 17px;
     }
     .table{
-        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .sell-btn{
         font-size: .9em;
@@ -336,12 +352,12 @@ th, td{
     }
 
     .buynow-section{
-        width: 60%;
+        width: 70%;
         height: 270px;
     }
     .buynow-section h2{
         padding: 15px 0;
-        font-size: 2em;
+        font-size: 1.7em;
         color: #fff;
         letter-spacing: 2px;
     }
@@ -357,6 +373,19 @@ th, td{
     
 }
 @media screen and (max-width: 420px) {
+    .about{
+        flex-direction: column;
+        padding-top: 10%;
+    }
+
+    .about_note button{
+        font-size: 1em;
+        padding: 10px 30px;
+        color: #fff;
+        border-radius: 30px;
+        border: 1px solid #6f67aa;
+        background-color: rgba(4, 1, 26, 0.473);
+    }
     .coins{
         display: flex;
         flex-direction: column-reverse;
