@@ -15,7 +15,9 @@ body{
     padding-right: 8%;
     font-size: 1em;
 }
-
+#con:hover{
+    color: #04011a;
+}
 a:hover{
     color: #897ee0;
 }
