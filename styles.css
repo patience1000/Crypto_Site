@@ -233,7 +233,6 @@ th, td{
     margin-top: 80px;
     margin-left: 10px;
     border-radius: 0%;
-    /* margin-bottom: 90px; */
     color: #fff;
     text-align: center;
 }
@@ -303,7 +302,7 @@ th, td{
         padding-left: 0px;
     }    
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
     .about{
         flex-direction: column;
         padding-top: 10%;
