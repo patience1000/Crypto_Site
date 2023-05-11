@@ -185,7 +185,7 @@ th, td{
     width: 250px;
     height: 300px;
     border-radius: 5px;
-    /* position: relative; */
+    position: relative;
     background-color: #897ee0;
 }
 .bottom p{
