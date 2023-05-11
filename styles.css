@@ -174,7 +174,7 @@ th, td{
     outline: none;
     border: none;
     padding: 1px 23px;
-    background-color: rgb(4, 1, 26);
+    background-color: #04011a;
     margin-bottom: 10px;
     box-shadow: 4px -4px rgba(118, 110, 175, 0.158);
     border: 1px solid #6f67aa;
@@ -189,8 +189,9 @@ th, td{
     background-color: #897ee0;
 }
 .bottom p{
-    font-size: 1.3em;
-    color: #6f67aa;
+    padding: 2px pink;
+    font-size: 1.2em;
+    color: #04011a;
 }
 /* .swi button{
     color: #766eaf;
