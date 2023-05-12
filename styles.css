@@ -180,7 +180,7 @@ th, td{
     border: 1px solid #6f67aa;
 }
 .bottom{
-    /* bottom: 30px; */
+    bottom: 30px;
     /* z-index: -1; */
     width: 250px;
     height: 300px;
@@ -189,7 +189,7 @@ th, td{
     background-color: #897ee0;
 }
 .bottom p{
-    padding: 2px pink;
+    /* padding: 2px pink;/ */
     font-size: 1.2em;
     color: #04011a;
 }
