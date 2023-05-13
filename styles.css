@@ -156,7 +156,7 @@ th, td{
     height: 300px;
     border-radius: 5px;
     /* margin-left: 100px; */
-    /* transform: rotate(-15deg); */
+    transform: rotate(-15deg);
     background-color: rgb(137, 126, 224);
 }
 .on-top img{
