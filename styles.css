@@ -151,12 +151,19 @@ th, td{
 .testify h5{
     color: #897ee0;
 }
+.Nft{
+    display: flex;
+    justify-content: space-between;
+}
 .on-top{
     width: 250px;
     height: 300px;
     border-radius: 5px;
-    /* margin-left: 100px; */
-    transform: rotate(-15deg);
+    z-index: -1;
+    left: 100px;
+    bottom: 50px;
+    position: relative;
+    transform: rotate(-10deg);
     background-color: rgb(137, 126, 224);
 }
 .on-top img{
@@ -180,12 +187,12 @@ th, td{
     border: 1px solid #6f67aa;
 }
 .bottom{
-    bottom: 30px;
+    bottom: 130px;
     /* z-index: -1; */
     width: 250px;
     height: 300px;
     border-radius: 5px;
-    position: relative;
+    /* position: relative; */
     background-color: #897ee0;
 }
 .bottom p{
