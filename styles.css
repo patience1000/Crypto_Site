@@ -185,7 +185,7 @@ th, td{
     font-size: 1.2em;
     outline: none;
     border: none;
-    padding: 1px 23px;
+    padding: 1px 20px;
     background-color: #04011a;
     margin-bottom: 10px;
     box-shadow: 4px -4px rgba(118, 110, 175, 0.158);
@@ -202,16 +202,6 @@ th, td{
     font-size: 1.2em;
     color: #04011a;
 }
-/* .swi button{
-    color: #766eaf;
-    font-size: .7em;
-    outline: none;
-    border: none;
-    padding: 1px 10px;
-    border-radius: 5px;
-    background-color: #04011a;
-    margin-bottom: 10px;
-} */
 
 .bottom img{
     height: 70%;
