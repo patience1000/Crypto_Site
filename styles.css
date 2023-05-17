@@ -141,7 +141,8 @@ th, td{
 /* About */
 .about{
     display: flex;
-    padding-top: 10%;
+    padding-top: 30%;
+    padding-bottom: 10%;
     justify-content: center;
 }
 .testify{
@@ -312,11 +313,27 @@ th, td{
     .buy_sell img{
         padding-left: 0px;
     }    
+    .about{
+        flex-direction: column;
+    }
+    .about_note button{
+        font-size: 1em;
+        padding: 5px 40px;
+    }
+    .Nft{
+        padding-top: 20%;
+    }
 }
 @media screen and (max-width: 414px) {
     .about{
         flex-direction: column;
+        padding-top: 0%;
+        padding-bottom: 10%;
         padding-top: 10%;
+    }
+
+    .Nft{
+        padding-top: 20%;
     }
 
     .about_note{
