@@ -180,6 +180,7 @@ th, td{
 .on-top p{
     font-size: 1.2em;
     color: #04011a;
+    text-shadow: 1px 1px red;
 }
 .swi{
     display: flex;
@@ -214,6 +215,7 @@ th, td{
 .bottom p{
     font-size: 1.2em;
     color: #04011a;
+    text-shadow: 1px 1px red;
 }
 
 .bottom img{
@@ -292,6 +294,10 @@ th, td{
     background-color: black;
 }
 
+.buynow-section button:hover{
+    background-color: #242959;
+}
+
 /*Footer  */
 .footer{
     margin-top: 250px;
@@ -306,6 +312,9 @@ th, td{
 .footer p{
     font-size: .8em;
 }
+.footer p:hover{
+    color: #6f67aa;
+}
 .footer button{
     outline: none;
     border: none;
@@ -314,6 +323,9 @@ th, td{
     padding: 7px 40px;
     border-radius: 20px;
     background-color: rgb(59, 124, 112);
+}
+.footer button:hover{
+    background-color: #242959;
 }
 @media screen and (max-width: 768px) {
     .coins{
