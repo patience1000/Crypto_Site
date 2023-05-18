@@ -21,6 +21,7 @@ body{
 a:hover{
     color: #897ee0;
 }
+
 /* Buy and sell */
 .buy_sell{
     display: flex; 
@@ -66,6 +67,8 @@ a:hover{
 .buy-btn:hover{
     background-color: #2d2b46;
 }
+
+/* Features */
 .feature{
     padding-top: 14%;
     margin-left: 12%;
@@ -138,6 +141,7 @@ table{
 th, td{
     padding: 6px 17px;
 }
+
 /* About */
 .about{
     display: flex;
@@ -226,6 +230,10 @@ th, td{
     border: 1px solid #6f67aa;
     background-color: rgba(4, 1, 26, 0.473);
 }
+
+.about_note button:hover{
+    background-color: rgba(188, 185, 212, 0.5);
+}
 .about_note h1{
     font-size: 2.5em;
 }
@@ -284,6 +292,7 @@ th, td{
     background-color: black;
 }
 
+/*Footer  */
 .footer{
     margin-top: 250px;
     display: flex;
@@ -329,10 +338,11 @@ th, td{
         border-radius: 5px;
         left: 0px;
         z-index: 0;
-        bottom: 20px;
+        bottom: 30px;
         transform: rotate(0deg);
         background-color: rgb(137, 126, 224);
     }
+    
     .note p{
         padding-right: 0px;
     }
@@ -367,16 +377,7 @@ th, td{
         justify-content: space-around;
         align-items: center;
     }
-    .on-top{
-        width: 230px;
-        height: 300px;
-        border-radius: 5px;
-        left: 0px;
-        z-index: 0;
-        bottom: 20px;
-        transform: rotate(0deg);
-        background-color: rgb(137, 126, 224);
-    }
+    
     .about_note{
         padding-bottom: 100px;
     }
@@ -395,7 +396,7 @@ th, td{
         height: 300px;
         border-radius: 5px;
         left: 0px;
-        bottom: 20px;
+        bottom: 30px;
         transform: rotate(0deg);
         background-color: rgb(137, 126, 224);
     }
@@ -468,7 +469,7 @@ th, td{
         height: 300px;
         border-radius: 5px;
         left: 0px;
-        bottom: 20px;
+        bottom: 30px;
         transform: rotate(0deg);
         background-color: rgb(137, 126, 224);
     }
