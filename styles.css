@@ -317,10 +317,22 @@ th, td{
         padding: 22px 10px 10px 10px;    
     }
     .Nft{
-        padding: 40% 0;
+        padding: 30% 0;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 
-
+    .on-top{
+        width: 230px;
+        height: 300px;
+        border-radius: 5px;
+        left: 0px;
+        z-index: 0;
+        bottom: 20px;
+        transform: rotate(0deg);
+        background-color: rgb(137, 126, 224);
+    }
     .note p{
         padding-right: 0px;
     }
@@ -351,12 +363,16 @@ th, td{
 
     .Nft{
         padding-top: 20%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
     .on-top{
         width: 230px;
         height: 300px;
         border-radius: 5px;
         left: 0px;
+        z-index: 0;
         bottom: 20px;
         transform: rotate(0deg);
         background-color: rgb(137, 126, 224);
@@ -373,9 +389,7 @@ th, td{
         border: 1px solid #6f67aa;
         background-color: rgba(4, 1, 26, 0.473);
     }
-    .Nft{
-        flex-direction: column;
-    }
+   
     .on-top{
         width: 230px;
         height: 300px;
