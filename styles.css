@@ -175,6 +175,7 @@ th, td{
     height: 70%;
     width: 100%;
     border-radius: 5px;
+    background-color: turquoise;
 }
 
 .on-top p{
@@ -222,6 +223,7 @@ th, td{
     height: 70%;
     width: 100%;
     border-radius: 5px;
+    background-color: #04011a;
 }
 
 .about_note button{
