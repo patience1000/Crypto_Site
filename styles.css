@@ -1,4 +1,5 @@
 body{
+    margin: 0;
    background-color: #04011a;
    color: #fff;
 }
@@ -162,7 +163,7 @@ th, td{
 }
 .on-top{
     width: 230px;
-    height: 300px;
+    height: 320px;
     border-radius: 5px;
     z-index: -1;
     left: 70px;
@@ -179,9 +180,11 @@ th, td{
 }
 
 .on-top p{
-    font-size: 1.2em;
-    color: #04011a;
-    text-shadow: 1px 1px red;
+    font-size: 1.3em;
+    color: turquoise;
+    margin-bottom: 0.2em;
+    padding-left: 15px;
+    text-shadow: 2px 3px #000;
 }
 .swi{
     display: flex;
@@ -196,34 +199,35 @@ th, td{
     color: #04011a;
 }
 .swi button{
-    color: rgb(118, 110, 175);
-    font-size: 1em;
+    color: rgb(110, 160, 175);
+    font-size: 1.3em;
     outline: none;
     border: none;
-    padding: 1px 18px;
+    padding: 0px 18px;
     background-color: #04011a;
-    margin-bottom: 10px;
-    box-shadow: 4px -4px rgba(118, 110, 175, 0.158);
+    box-shadow: 4px -px rgba(118, 110, 175, 0.158);
     border: 1px solid #6f67aa;
 }
 .bottom{
     bottom: 130px;
     width: 230px;
-    height: 300px;
+    height: 320px;
     border-radius: 5px;
-    background-color: #897ee0;
+    background-color: #6f67aa;
 }
 .bottom p{
-    font-size: 1.2em;
-    color: #04011a;
-    text-shadow: 1px 1px red;
+    font-size: 1.3em;
+    color: turquoise;
+    padding-left: 15px;
+    margin-bottom: 0.2em;
+    text-shadow: 3px 3px #04011a;
 }
 
 .bottom img{
     height: 70%;
     width: 100%;
     border-radius: 5px;
-    background-color: #04011a;
+    background-color: #242959;
 }
 
 .about_note button{
