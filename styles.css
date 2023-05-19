@@ -150,6 +150,17 @@ th, td{
     padding-bottom: 10%;
     justify-content: center;
 }
+
+.about_note button{
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 10px 40px;
+    color: #40e0d0;
+    border-radius: 35px;
+    border: 2px solid #40e0d0;
+    background-color: rgba(4, 1, 26, 0.473);
+}
+
 .testify{
     margin-top: 30px;
     text-align: center;
@@ -228,15 +239,6 @@ th, td{
     width: 100%;
     border-radius: 5px;
     background-color: #242959;
-}
-
-.about_note button{
-    font-size: 1.5em;
-    padding: 10px 40px;
-    color: #fff;
-    border-radius: 30px;
-    border: 1px solid #6f67aa;
-    background-color: rgba(4, 1, 26, 0.473);
 }
 
 .about_note button:hover{
