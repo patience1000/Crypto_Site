@@ -328,9 +328,20 @@ th, td{
     border: none;
     font-size: .7em;
     color: #fff;
-    padding: 8px 15px;
+    padding: 9px 13px;
     border-radius: 20px;
-    background-color: rgb(59, 124, 112);
+    background-color: #3b7c70;
+}
+.footer button{
+    outline: none;
+    border: none;
+    font-size: .7em;
+    color: #fff;
+    position: relative;
+    right: 78.5px;
+    padding: 8px 14.4px;
+    border-radius: 20px;
+    background-color:#2d2b46;
 }
 .footer button:hover{
     background-color: #242959;
