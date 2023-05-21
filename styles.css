@@ -323,7 +323,7 @@ th, td{
 .footer p:hover{
     color: #6f67aa;
 }
-.footer button{
+.footer input{
     outline: none;
     border: none;
     font-size: .7em;
