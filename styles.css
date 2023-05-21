@@ -327,8 +327,8 @@ th, td{
     outline: none;
     border: none;
     font-size: .7em;
-    color: #000;
-    padding: 7px 40px;
+    color: #fff;
+    padding: 8px 15px;
     border-radius: 20px;
     background-color: rgb(59, 124, 112);
 }
