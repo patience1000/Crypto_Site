@@ -181,13 +181,13 @@ th, td{
     bottom: 70px;
     position: relative;
     transform: rotate(-25deg);
-    background-color: rgb(137, 126, 224);
+    background-image: linear-gradient(rgb(59, 124, 112),rgb(7, 58, 47),rgb(64, 224, 208));
 }
 .on-top img{
     height: 70%;
     width: 100%;
     border-radius: 5px;
-    background-color: turquoise;
+    background-color: rgb(64, 224, 208);
 }
 
 .on-top p{
@@ -224,7 +224,7 @@ th, td{
     width: 230px;
     height: 320px;
     border-radius: 5px;
-    background-color: #6f67aa;
+    background-image: linear-gradient(rgb(59, 124, 112),rgb(7, 58, 47),rgb(64, 224, 208));
 }
 .bottom p{
     font-size: 1.3em;
