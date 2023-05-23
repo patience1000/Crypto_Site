@@ -3,6 +3,10 @@ body{
    background-color: #04011a;
    color: #fff;
 }
+.crypto{
+    
+     background-color: #40e0d0;
+}
 .navbar-brand{
     padding-top: 2%;
     font-size: 1.4em;
