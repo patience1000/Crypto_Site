@@ -9,7 +9,7 @@ body{
     text-decoration: none;
     border-radius: 0px 100px 80px; 
     padding: 40px;
-    background-image: linear-gradient(rgba(39, 138, 118, 0.3),rgba(59, 116, 124, 0.4));
+    background-image: linear-gradient(rgba(103, 168, 177, 0.3),rgba(59, 116, 124, 0.2));
 }
 .crypto:hover{
     color:#fff;
