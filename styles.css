@@ -117,7 +117,7 @@ a:hover{
 }
 .sale-note h2{
     font-size: 3em;
-    color: #766eaf;
+    color: #060c0b;
 }
 .sale-note h4{
     color: #6f67aa;
@@ -143,11 +143,10 @@ a:hover{
 
 table{
     margin-top: 20px;
-    background-color: #6f67aa;
+    background-color: #3a5b6a;
     color: #fff;
     font-size: 1.3em;
     border-radius: 5%;
-    box-shadow: 3px 3px 10px 3px #6f67aa;
 }
 th, td{
     padding: 6px 17px;
